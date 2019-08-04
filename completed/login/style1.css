@@ -1,0 +1,118 @@
+body{
+  background: #191919;
+  margin: 0;
+  padding: 0;
+  color: #584e4a;
+}
+
+
+.search-box{
+  position: absolute;
+  top: 6%;
+  right: 1%;
+  transform: translate(0%,-50%);
+  background: #2f3940;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+
+}
+
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 15px;
+}
+
+.search-box:hover > .search-btn{
+  background: white;
+}
+
+.search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3940;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: right;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+}
+
+
+.box{
+    width: 250px;
+    padding: 40px;
+    position: absolute;
+    border-radius: 7px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: none;
+}
+.box h1{
+    color: #FF5348;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 1.5px solid #3498db;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: #5F33FF;
+    border-radius: 23px;
+    transition: 0.25s;
+
+}
+
+.box input[type = "text"]:hover,.box input[type = "password"]:hover{
+ width: 250px;
+ border-color: #2ecc71;
+ background: #2ecc71;
+
+}
+
+.box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 175px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type = "submit"]:hover{
+    background: #2ecc71;
+    color: #191919;
+}

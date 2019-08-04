@@ -1,0 +1,73 @@
+body{
+    background: white;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'nunito', 'sans-serif';
+}
+
+//  <script type="text/javascript">
+//setTimeout( 'document.location = "D:/completed/login/ddd.html";', 10000 );
+//</script>
+.container{
+    width: 30%;
+    position: absolute;
+    background: none;
+    border-radius: 10px;
+    top: 150px;
+    left: 550px;
+    transform: translate(50%,50%)
+}
+
+
+    .inner {
+        background: rgb(7,255,165);
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(10% at 90% 20%);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            clip-path: circle(70%);
+            background: #00b6ff;
+        }
+
+        span{
+            float: right;
+            color: white;
+            font-weight: bold;
+            transition: color .3s;
+            position: relative;
+            align-content: center;
+            justify-content: center;
+            margin-right: 4%
+        }
+
+        &:hover span{
+            color: rgba(255,255,255,0)
+        }
+
+
+        h1{
+            color: white;
+            margin: 0;
+            font-family: 'nunito';
+        }
+
+
+        p{
+            color: white;
+            font-size: .8rem;
+
+        }
+
+
+
+    }
+
+
+
+ 

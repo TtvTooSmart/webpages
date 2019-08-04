@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #e84118;
+}
+
+
+.sbox{
+  position: absolute;
+  top: 6%;
+  left: 1%;
+  transform: translate(0%,-50%);
+  background: #2f3940;
+  height: 40px;
+  border-radius: 50px;
+  padding: 10px;
+
+}
+
+.sbox:hover > .stxt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.sbox:hover > .sbtn{
+  background: white;
+}
+
+.sbtn{
+  color: #e84118;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.stxt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0;
+}

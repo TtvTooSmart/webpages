@@ -1,0 +1,61 @@
+body{
+    background: #dcf5ff;
+    margin: 10;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'nunito', 'sans-serif';
+    }
+    
+    
+    
+    
+        .inner{
+            background: rgb(7,218,165);
+            padding: 15;
+            border-radius: 10px;
+            width: 230px;
+            height: 100px;
+            clip-path: circle(10% at 90% 20%);
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+    
+            &:hover {
+                clip-path: circle(75%);
+                background: #00b6ff;
+            }
+    
+            span{
+                float: right;
+                color: white;
+                font-weight: bold;
+                transition: color .5s;
+                position: relative;
+                margin-right: 4%;
+            }
+    
+            &:hover span{
+                color: rgba(255,255,255,0);
+            }
+    
+          h1{
+              color: white;
+              margin: 0;
+            }
+    
+    
+          p{
+              color: white;
+              font-size: .8rem;
+            }
+    
+        }
+    
+        
+    
+    
+    
+    
+    
